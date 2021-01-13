@@ -2,14 +2,32 @@
 <html>
 <head>
     <Title>Products</Title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+
 </head>
 <body style="background-color: black;">
-    <H2 style="color: white">Products Page</h2>
-    <a href="Index.html">Home</a>
+    <H2 class="text-green-500 text-5xl">Products Page</h2>
+    
+    
+    <p class="my-4">
+        <a href="Index.html" class="text-red-500 border-2 border-red-500 mx-8">Home</a>
 
-    <a href="SassyJokes.html">Sassy Jokes</a>
+        <a href="SassyJokes.html" class="text-red-500 border-2 border-red-500 mx-8">Sassy Jokes</a>
 
-    <p style="color:white"><strong>We are a service company so we don't offer any products.  If we ever do, they will be here though.</strong></p>
+    </P>
+    
+        <p style="color:white"><strong>We are a service company so we don't offer any products.  If you would like to join our email list for any new product offerings, please fill out our form below.</strong></p>
+
+<form action="thanks.html">
+    <label for="name" class="text-red-500 ml-8">What is your name?</label>
+    <input type="text" id="name" name="name">
+  
+    <label for="email" class="text-red-500 ml-8">What is your email address?</label>
+    <input type="text" id="email" name="email">
+  
+    <button class="border-2 border-red-500 text-red-500 m-8">Submit form!</button>
+
+</form>
 
 
 </body>
